@@ -1,0 +1,86 @@
+body {
+  color: aliceblue;
+  background-color: #1a1a1e;
+  
+  margin: 0;
+  padding: 0;
+
+  font-family: "Gill Sans", sans-serif;
+}
+
+img {
+  border-radius: 6px;
+}
+h1 {
+font-size: 50px;
+}
+
+/*Нижний барьер*/
+#border {
+  background-color: #121214;
+  min-height: 50px;
+  width: 100%;
+
+  margin-top: 20px;
+  padding: 1px 1px 1px 10px;
+
+  p {
+  cursor: pointer;
+  }
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: aliceblue;
+  text-decoration: none;
+}
+/*Базовое редактирование текста*/
+p, h1, h2, h3, h4, h5, h6, a {
+  width: 100%;
+  padding: 1px 1px 1px 10px;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden; /* всё, что выходит за пределы, обрезается */
+}
+
+.slider-track {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.4s ease;
+}
+
+.slider-track img {
+  flex: 0 0 300px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  color: aliceblue;
+  background-color: #121214;
+  border: 0px;
+
+  width: 48vw;
+  padding-left: 20px;
+  text-align: left;
+}
+#next {
+  padding-left: 0;
+  text-align: right;
+}
+
+#button {
+  background-color: #121214;
+}
+
+iframe {
+  border: none;
+  margin-left: 2vw;
+  width: 94vw;
+  height: 50vh;
+}
